@@ -27,14 +27,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun ConnectButton(alingment: String = , ){
+fun ConnectButton(alignment: Alignment = Alignment.TopCenter, ){ //wierd ahh type alignment
     Box(
         modifier = Modifier
             .fillMaxSize() // fill the entire screen
-            .padding(top = 16.dp), // optional padding
-        contentAlignment = Alignment.TopCenter // aligns content to the center of the top
+            .padding(top = 16.dp), // padding
+        contentAlignment = alignment // default TopCenter
     ) {
-        Button(onClick = { /* handle button click */ }) {
+        Button(onClick = { /* CODE */ }) {
             Text("Click Me")
         }
     }
