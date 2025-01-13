@@ -4,6 +4,12 @@ A Kotlin app to help League of Legends players pick champions based on role, lan
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hugo3125soko312/Leauge-Prepicker.git
+1. Download the latest **signed release APK** from the [Releases](https://github.com/hugo3125soko312/Leauge-Prepicker/releases) section.
+
+2. Allow installation from unknown sources in your Android settings if prompted.
+
+3. Open the APK and follow the installation instructions.
+
+## License
+
+MIT License.
