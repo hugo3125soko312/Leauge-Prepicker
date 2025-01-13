@@ -10,6 +10,9 @@ A Kotlin app to help League of Legends players pick champions based on role, lan
 
 3. Open the APK and follow the installation instructions.
 
+4. You can verify the APK by scanning it with VirusTotal:  
+   [VirusTotal Scan for Latest Release](https://www.virustotal.com/gui/file/YOUR_FILE_HASH_HERE)
+
 ## License
 
-MIT License.
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](https://github.com/hugo3125soko312/Leauge-Prepicker/blob/main/LICENSE) file for more details.
