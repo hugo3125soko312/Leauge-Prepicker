@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -34,7 +35,7 @@ fun ConnectButton(alignment: Alignment = Alignment.TopCenter, ){ //wierd ahh typ
             .padding(top = 16.dp), // padding
         contentAlignment = alignment // default TopCenter
     ) {
-        Button(onClick = { /* CODE */ }) {
+        Button(onClick = { /* CODE */ }, elevation = ButtonDefaults.buttonElevation(pressedElevation = 16.dp)) { // elevation = shadow drop
             Text("Click Me")
         }
     }
