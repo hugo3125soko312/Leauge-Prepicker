@@ -1,6 +1,7 @@
 package com.example.leaugeprepick
 
 
+import android.R.attr.onClick
 import com.example.leaugeprepick.ui.theme.*
 
 import android.os.Bundle
@@ -15,7 +16,9 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -38,16 +41,18 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun connectButton(alignment: Alignment = Alignment.TopCenter, ){ //wierd ahh type alignment
+fun buttonCONNECT(){
     Box(
         modifier = Modifier
             .fillMaxWidth().fillMaxHeight() // fill the entire screen
-            .padding(top = 16.dp) // padding
-            .background(color = Color.Blue)
-       // contentAlignment = alignment // default TopCenter
+            .padding(bottom = 50.dp), // additional size for bottom
+        contentAlignment = Alignment.BottomCenter
     ) {
-        Button(onClick = { /* CODE */ }, elevation = ButtonDefaults.buttonElevation(pressedElevation = 16.dp)) { // elevation = shadow drop
-            Text("Click Me")
+        Button(modifier = Modifier.wrapContentSize(align = Alignment.TopCenter),
+            onClick = { /* CODE */ },
+            elevation = ButtonDefaults.buttonElevation(pressedElevation = 16.dp),  // elevation = shadow drop
+            colors = defaultButtonLayoutCONNECT()) {
+            Text("CONNECT")
         }
     }
 }
@@ -56,11 +61,10 @@ fun connectButton(alignment: Alignment = Alignment.TopCenter, ){ //wierd ahh typ
 fun appBackground() {
     Box(modifier = Modifier
         .fillMaxSize()
-        .background(color = Color.LightGray)) {main2()}
+        .background(color = backgroundBlue)) {main2()}
 }
 @Composable
 fun main2() {
     /*  CODE  */
-
-    connectButton()
+    buttonCONNECT()
 }
