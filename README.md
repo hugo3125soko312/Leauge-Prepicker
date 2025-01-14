@@ -13,3 +13,10 @@ A Kotlin app to help League of Legends players pick champions based on role, lan
 ## License
 
 This project is licensed under the **GNU General Public License v3.0**. See the [**LICENSE**](https://github.com/hugo3125soko312/Leauge-Prepicker/blob/main/LICENSE) file for more details.
+
+## TODO 
+Manual (*+* .. create, *-* .. remove, *?* .. entirely change)
+- [ ] ? background
+- [x] + theme colors
+- [ ] + searchbar
+- [ ] + collection of champs (prob with APIs)
