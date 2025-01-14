@@ -16,4 +16,4 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 
 ## TODO
 Manual (*+* .. create, *-* .. remove, *?* .. entirely change)
-__this has been ignored for atleast a week__
+- __this has been ignored for atleast a week__
