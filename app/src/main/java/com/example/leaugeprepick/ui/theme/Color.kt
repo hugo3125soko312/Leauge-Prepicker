@@ -9,4 +9,4 @@ val blue = Color(51,115,251)
 // WHITE
 val darkWhite = Color(204,221,254)
 val white = Color(254,254,255)
-//
+// RATING
