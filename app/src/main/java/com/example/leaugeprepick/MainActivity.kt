@@ -1,7 +1,14 @@
 package com.example.leaugeprepick
 
-
-import android.R.attr.onClick
+import android.os.Bundle
+import androidx.compose.foundation.layout.Box
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.unit.dp
+import com.example.leaugeprepick.ui.theme.backgroundBlue
+import com.example.leaugeprepick.ui.theme.defaultButtonLayoutCONNECT
+import com.example.leaugeprepick.
+val skibidi: String = System.getenv()
 import com.example.leaugeprepick.ui.theme.*
 
 import android.os.Bundle
