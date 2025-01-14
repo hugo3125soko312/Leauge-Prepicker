@@ -17,3 +17,5 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 ## TODO
 Manual (*+* .. create, *-* .. remove, *?* .. entirely change)
 - __this has been ignored for atleast a week__
+- - __im never coming back for manual todo list__
+  - - __i can remember it💯__
