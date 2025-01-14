@@ -16,7 +16,4 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 
 ## TODO
 Manual (*+* .. create, *-* .. remove, *?* .. entirely change)
-- [ ] ? background
-- [x] + theme colors
-- [ ] + searchbar
-- [ ] + collection of champs (prob with APIs)
+__this has been ignored for atleast a week__
