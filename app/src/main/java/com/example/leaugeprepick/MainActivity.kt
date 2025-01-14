@@ -23,6 +23,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextDirection.Companion.Content
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
@@ -31,7 +32,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            main2() // init
+            appBackground() //set ".background" -> main2
         }
     }
 }
@@ -50,8 +51,13 @@ fun connectButton(alignment: Alignment = Alignment.TopCenter, ){ //wierd ahh typ
         }
     }
 }
-
-@Preview
+// MAIN
+@Composable
+fun appBackground() {
+    Box(modifier = Modifier
+        .fillMaxSize()
+        .background(color = Color.LightGray)) {main2()}
+}
 @Composable
 fun main2() {
     /*  CODE  */
