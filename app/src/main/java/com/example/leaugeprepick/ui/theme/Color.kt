@@ -22,31 +22,7 @@ val ratingD = Color(177,54,74) // D
 // button color layouts
 //CONNECT
 @Composable
-fun defaultButtonLayoutCONNECT() = ButtonDefaults.buttonColors(
-    containerColor = blue,
-    contentColor = white,
-//    disabledContentColor = ,
-//    disabledContainerColor =
-)
-//PICK
-@Composable
-fun defaultButtonLayoutPICK() = ButtonDefaults.buttonColors(
-    containerColor = blue,
-    contentColor = white,
-//    disabledContentColor = ,
-//    disabledContainerColor =
-)
-//LOCK IN
-@Composable
-fun defaultButtonLayoutLOCKIN() = ButtonDefaults.buttonColors(
-    containerColor = blue,
-    contentColor = white,
-//    disabledContentColor = ,
-//    disabledContainerColor =
-)
-//BA
-@Composable
-fun defaultButtonLayoutBAN() = ButtonDefaults.buttonColors(
+fun defaultButtonLayoutCREATE_NEW() = ButtonDefaults.buttonColors(
     containerColor = blue,
     contentColor = white,
 //    disabledContentColor = ,
